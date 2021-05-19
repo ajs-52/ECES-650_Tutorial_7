@@ -1,0 +1,5 @@
+#!/bin/bash
+#use checkm -h to see all the commands.
+#
+module load checkm
+checkm tree <bin_folder> <tree_output_folder> -x .fa
